@@ -13,6 +13,8 @@ app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
+app.use(methodOverride("_method"));
+
 // Set Handlebars.js
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");

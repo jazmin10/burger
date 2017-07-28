@@ -1,8 +1,32 @@
 var express = require("express");
 var burger = require("../models/burger.js");
 
-// include exports.router
+var router = express.Router();
 
-// set up all routes and calls to burger
+// Sets up routes for READ, CREATE, and PUT
 
-// export router
+router.get("/", function(readReq, readRes){
+	burger.selectAll(function(data){
+		var hbsObject = { burgers: data};
+
+		readRes.render("index", hbsObject);
+	});
+});
+
+router.post("/", function(createReq, createRes){
+	burger.insertOne(["burger_name"], [createReq.body.newBurger],
+		function(){
+			createRes.redirect("/");
+	});
+});
+
+router.put("/:id", function(updateReq, updateRes){
+	var condition = "id = " + updateReq.params.id;
+	
+	burger.updateOne({devoured: updateReq.body.devoured}, condition,
+		function(){
+			updateRes.redirect("/");
+	});
+});
+
+module.exports = router;

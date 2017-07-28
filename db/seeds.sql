@@ -1,8 +1,8 @@
 INSERT INTO burgers(burger_name, devoured, date)
-VALUES ("Cheeseburger", true, CURDATE());
+VALUES ("Cheeseburger", true, NOW());
 
 INSERT INTO burgers(burger_name, devoured, date)
-VALUES ("Bacon Cheeseburger", false, CURDATE());
+VALUES ("Bacon Cheeseburger", false, NOW());
 
 INSERT INTO burgers(burger_name, devoured, date)
-VALUES ("Chili Burger", false, CURDATE());
+VALUES ("Chili Burger", false, NOW());

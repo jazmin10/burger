@@ -1,0 +1,96 @@
+body {
+	background-color: darkcyan;
+}
+
+.container {
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+img {
+	width: 10%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*Aligns our new burgers, buttons, and devoured burgers inline =============== */
+#notDevouredBurgers {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#buttons {
+	display: inline-block;
+	vertical-align: top;
+}
+#devouredBurgers {
+	display: inline-block;
+}
+
+#marginCorrection {
+	margin-bottom: 30px;
+}
+
+/* Not devoured burgers area ================================ */
+#notDevouredList {
+	border: solid;
+	border-color: lightgray;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 5px 25px 5px;
+    margin-bottom: 20px;
+    display: inline;
+    width: 60%;
+    margin-right: 27px;
+}
+
+#devouredButtonsArea {
+	display: inline-block;
+}
+
+#devouredButtons {
+	font-size: 18px;
+	padding: 5px 10px;
+}
+
+#buttonList {
+	margin-bottom: 50px;
+}
+
+/* Devoured burgers area ================================ */
+#devouredList {
+	border: solid;
+    border-color: lightgray;
+    color: #a9a6a6;
+    background-color: white;
+    font-size: 18px;
+    padding: 5px 50px 5px 5px;
+    margin-bottom: 1px;
+}
+
+/* Adding burgers area =============================== */
+textarea {
+	font-size: 18px;
+}
+
+#addButtonDiv {
+	text-align: center;
+}
+
+#addButton{
+	font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    padding: 10px 20px;
+    background: darkblue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+#addButton:hover {
+	background-color: blue;
+}
