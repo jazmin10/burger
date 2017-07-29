@@ -1,3 +1,6 @@
+/* ASSIGNMENT #14: Burger App - Node, Express, and Handlebars 
+Creating our burger model */
+
 var orm = require("../config/orm.js");
 
 var burger = {

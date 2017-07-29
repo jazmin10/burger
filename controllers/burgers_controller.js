@@ -1,3 +1,6 @@
+/* ASSIGNMENT #14: Burger App - Node, Express, and Handlebars 
+Setting up our routing */
+
 var express = require("express");
 var burger = require("../models/burger.js");
 

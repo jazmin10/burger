@@ -1,3 +1,6 @@
+/* ASSIGNMENT #14: Burger App - Node, Express, and Handlebars 
+Connecting to our database */
+
 var mysql = require('mysql');
 var connection;
 

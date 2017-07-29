@@ -1,3 +1,6 @@
+/* ASSIGNMENT #14: Burger App - Node, Express, and Handlebars 
+Starting our server */
+
 // Dependencies
 var express = require("express");
 var methodOverride = require("method-override");
