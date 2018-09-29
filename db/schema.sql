@@ -1,4 +1,4 @@
-/* ASSIGNMENT #14: Burger App - Node, Express, and Handlebars 
+/* Burger App - Node, Express, and Handlebars 
 Schema for our database */
 
 CREATE TABLE burgers (

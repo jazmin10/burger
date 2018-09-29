@@ -1,4 +1,4 @@
-/* ASSIGNMENT #14: Burger App - Node, Express, and Handlebars 
+/* Burger App - Node, Express, and Handlebars 
 Creating our ORM */
 
 var connection = require("./connection.js");
